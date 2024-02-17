@@ -1,6 +1,6 @@
 def palindrome(str1):
     str2 = ""
-    for i in str1:
+    for i in str1: # i refers to the charachters in string
         str2 = i + str2
     if str2 == str1:
         print(f"{str1} is a palindrome")
