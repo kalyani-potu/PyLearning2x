@@ -3,6 +3,7 @@ def say_hello():
 
 
 say_hello()
+
 result = say_hello()
 print(result) # None because say_hello is not returning anything
 
