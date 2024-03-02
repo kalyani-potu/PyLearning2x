@@ -4,3 +4,8 @@ def fun1(num):
 
 add, mul = fun1(10)
 print(f"addition is {add}, multiplication is {mul}")
+
+
+def fun2():
+    return 99,'kalyani','q',0
+print(fun2())
