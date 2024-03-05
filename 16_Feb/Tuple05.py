@@ -5,3 +5,7 @@ print(tuple1)
 print(tuple2)
 print(tuple3)
 print(tuple3[1])
+print(tuple1[-1])
+print(tuple1[2:4])#The search will start at index 2 (included) and end at index 4 (not included).
+print(tuple1[:4])
+print(tuple1[2:])

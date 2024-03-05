@@ -1,4 +1,4 @@
-my_tuple = (True,1,2.4,8,'kalyani')
+my_tuple = (True,1,2.4,8,'kalyani',1)
 print("The given tuple is : ", my_tuple)
 print(len(my_tuple))
 print(type(my_tuple))
@@ -10,3 +10,6 @@ my_tuple1=('aa',)
 print("The given tuple is : ", my_tuple1)
 print(len(my_tuple1))
 print(type(my_tuple1)) #single element integer is giving type int, single string element is giving type str
+
+my_tuple2=tuple()
+print(my_tuple2)

@@ -1,4 +1,4 @@
-my_list = [True,1,2.4,8,'kalyani']
+my_list = [True,1,2.4,8,'kalyani','8']
 print("The given list is : ", my_list)
 print(len(my_list))
 print(type(my_list))

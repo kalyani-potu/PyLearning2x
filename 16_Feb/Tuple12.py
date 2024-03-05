@@ -7,6 +7,11 @@ print(tuple2)
 print(id(tuple2))
 print(id(my_tuple))
 
-tuple2 = my_tuple + () #  prints to same memory location
+tuple2 = my_tuple + () #  prints to same memory location, empty () is not tuple
+print(tuple2)
+print(id(tuple2))
+
+
+tuple2 = my_tuple + (6,'aa')
 print(tuple2)
 print(id(tuple2))
