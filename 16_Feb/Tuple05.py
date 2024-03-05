@@ -1,0 +1,7 @@
+tuple1 = (True,1,2.4,8,'kalyani')
+tuple2=()
+tuple3 = tuple(['1','kkk','DDD'])
+print(tuple1)
+print(tuple2)
+print(tuple3)
+print(tuple3[1])
