@@ -1,0 +1,5 @@
+phonebook = dict(Batman = 123, Superman = 342, Wonderwoman = 323)
+print(phonebook)
+print(phonebook['Batman'])
+print(phonebook["Batman"])
+print(phonebook.get("Batman"))

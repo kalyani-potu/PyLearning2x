@@ -1,0 +1,11 @@
+dict1 = {'a' :  1, 'b' : 2, 3 : 'cc' , 'a' : 95}
+keys1 = dict1.keys()
+values1 = dict1.values()
+key_list = list(keys1)
+value_list = list(values1)
+print(keys1)
+print(values1)
+#print(dict1.values())
+#print(dict1.keys())
+print(key_list)
+print(value_list)

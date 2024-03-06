@@ -5,7 +5,7 @@ print(set2)
 print(id(set1))
 print(id(set2))
 
-set1.pop()
+set1.pop() #removes random item
 print(set1)
 print(set2)
 
