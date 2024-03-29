@@ -44,7 +44,7 @@ def test_create_booking():
     additional_needs = response_json["booking"]["additionalneeds"]
     checkin = response_json["booking"]["bookingdates"]["checkin"]
     checkout = response_json["booking"]["bookingdates"]["checkout"]
-    assert first_name == "Drithi"
+    assert first_name == "Drithi" ,  "Failed message - Incorrect firstname" #when the firstname is incorrect, failed message is printed
     assert last_name == "Pen"
     assert total_price == 100
     assert deposit_paid == True
