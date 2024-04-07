@@ -1,4 +1,4 @@
-class Person:
+class Person(object): #This is same as class Person
     name = None
     age = None
     id = None
@@ -16,15 +16,15 @@ class Person:
 def func1(): # function independent of class
     print("I am a function - Independent of class")
 
-print("Name is", Person.name)
-kalyani = Person() #object creation, kalyani is object reference
-kalyani.name = "Kalyani Potu"
+
+kalyani = Person()
+#kalyani.name = "Kalyani Potu"
 print("Name is", kalyani.name)
+#kalyani.talk()
+#kalyani.walk()
+#print(kalyani.sleep())
+print("Name is", Person.name)
 print("Name is", Person().name)
-kalyani.talk()
 Person().talk()
-#Person.talk() #error, need to create instance
-kalyani.walk()
-print(kalyani.sleep())
 
 func1()
