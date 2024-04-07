@@ -12,6 +12,10 @@ class UtilsDB:
     def readDBMySQL(self):
         print("Reading rorm MYsql")
 
+    @staticmethod
+    def static_method():
+        print("calling static method")
+
 
 u = UtilsDB()
 print(u.public_var)
