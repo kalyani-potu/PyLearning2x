@@ -6,7 +6,7 @@ class Person(object): #This is same as class Person
     def talk(self):
         print("I can talk")
 
-    def walk(self):
+    def walk():
         print("I can walk")
 
     def sleep(self):
@@ -18,11 +18,13 @@ def func1(): # function independent of class
 
 
 kalyani = Person()
-#kalyani.name = "Kalyani Potu"
 print("Name is", kalyani.name)
-#kalyani.talk()
-#kalyani.walk()
-#print(kalyani.sleep())
+kalyani.name = "Kalyani Potu"
+print("Name is", kalyani.name)
+kalyani.talk()
+#kalyani.walk() --> it gives error, because walk() didn't have self parameter, it doesn't refer to instance(object) of class
+Person.walk() #direclty calling walk()
+print(kalyani.sleep())
 print("Name is", Person.name)
 print("Name is", Person().name)
 Person().talk()
