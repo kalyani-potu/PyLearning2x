@@ -12,7 +12,7 @@ else:
     print("Given strings are not anagrams")
 
 #################### or ############
-sorted_str1 = sorted(str1)
+sorted_str1 = sorted(str1) #sorted function returns sorted list.
 print(sorted_str1)
 sorted_str2 = sorted(str2)
 print(sorted_str2)
