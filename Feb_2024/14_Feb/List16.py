@@ -6,10 +6,10 @@ print(my_list2)
 print(my_list)
 
 #
-# my_list3=my_list is not creating a copy, its another variable refering to same list
-my_list3=my_list #my_list3 and my_list points to same elements, append adds element to same my_list, it doen't create separate new list, so, my_list3 also have same elements
+# my_list3=my_list is not creating a copy, its another variable referring to same list
+my_list3=my_list #my_list3 and my_list points to same elements,
 print(my_list3)
-my_list3.append(10)
+my_list3.append(10)#append --> adds element to my_list and my_list3, it doen't create separate new list, so, my_list also have same elements
 print(my_list3)
 print(my_list)
 print(id(my_list3))

@@ -22,6 +22,6 @@ my_list2 = my_list2 +[] #even when empty list is added, it creates a new list in
 print("The given list2 is : ", my_list2)
 print(id(my_list2))
 
-my_list3=my_list2 # here list3 is also refering to elements of list2, so both lists points to same memory address
+my_list3=my_list2 # here list3 is also referring to elements of list2, so both lists points to same memory address
 print("The given list3 is : ", my_list3)
 print(id(my_list3))
