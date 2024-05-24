@@ -7,3 +7,4 @@ for i in list1 :
         if result == list1[n] :
             print(list1.index(i),n)
     c+=1
+
