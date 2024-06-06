@@ -1,3 +1,4 @@
+#removing duplicate chararcters
 str = input("Enter the input string :")
 str1 = ''
 for i in str:

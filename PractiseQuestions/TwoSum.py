@@ -1,3 +1,4 @@
+#print elements whose sum is equal to given value
 sum_value = int(input("Enter the sum value :"))
 list1 = [1,3,9,0,5,3,6]
 c=1
